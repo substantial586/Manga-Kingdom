@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Manga Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 2em;
+        }
+        .manga-section {
+            margin-bottom: 2em;
+        }
+        .manga-section h2 {
+            border-bottom: 2px solid #222;
+            padding-bottom: 0.5em;
+        }
+        .manga-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .manga-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1em;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Global Manga Hub</h1>
+        <p>All types of Manga, Manhwa, and Manhua translated into Arabic and English</p>
+    </header>
+    <nav>
+        <a href="#latest">Latest</a>
+        <a href="#categories">Categories</a>
+        <a href="#popular">Popular</a>
+    </nav>
+    <main>
+        <section id="latest" class="manga-section">
+            <h2>Latest Releases</h2>
+            <div class="manga-list">
+                <div class="manga-item">
+                    <h3>Manga Title 1</h3>
+                    <p>Translated in Arabic and English</p>
+                </div>
+                <div class="manga-item">
+                    <h3>Manga Title 2</h3>
+                    <p>Translated in Arabic and English</p>
+                </div>
+                <div class="manga-item">
+                    <h3>Manga Title 3</h3>
+                    <p>Translated in Arabic and English</p>
+                </div>
+            </div>
+        </section>
+        <section id="categories" class="manga-section">
+            <h2>Categories</h2>
+            <div class="manga-list">
+                <div class="manga-item">
+                    <h3>Action</h3>
+                    <p>All action manga translated</p>
+                </div>
+                <div class="manga-item">
+                    <h3>Romance</h3>
+                    <p>All romance manga translated</p>
+                </div>
+                <div class="manga-item">
+                    <h3>Fantasy</h3>
+                    <p>All fantasy manga translated</p>
+                </div>
+            </div>
+        </section>
+        <section id="popular" class="manga-section">
+            <h2>Popular Manga</h2>
+            <div class="manga-list">
+                <div class="manga-item">
+                    <h3>Manga Title 4</h3>
+                    <p>Translated in Arabic and English</p>
+                </div>
+                <div class="manga-item">
+                    <h3>Manga Title 5</h3>
+                    <p>Translated in Arabic and English</p>
+                </div>
+                <div class="manga-item">
+                    <h3>Manga Title 6</h3>
+                    <p>Translated in Arabic and English</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Global Manga Hub. All rights reserved. | Advertisements Supported</p>
+    </footer>
+</body>
+</html>
